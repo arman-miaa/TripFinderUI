@@ -5,14 +5,16 @@ import Footer from "../components/Footer"
 
 const MainLayout = () => {
   return (
-      <div>
-          <Navbar />
-          <div className="min-h-[calc(100vh-340px)]">
-              <Outlet/>
-          </div>
-          <Footer/>
+    <div>
+      <div className='sticky top-0 left-0 bg-gray-100'>
+        <Navbar />
+      </div>
+      <div className="min-h-[calc(100vh-340px)]">
+        <Outlet />
+      </div>
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default MainLayout
