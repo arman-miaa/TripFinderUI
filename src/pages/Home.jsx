@@ -1,8 +1,13 @@
+import Banner from "../components/Banner"
+import ImageSlider from "../components/ImageSlider"
 
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className="container mx-auto">
+      <Banner />
+      <ImageSlider/>
+    </div>
   )
 }
 
