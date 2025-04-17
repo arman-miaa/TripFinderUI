@@ -72,7 +72,7 @@ const HotDeals = () => {
               },
               "& .Mui-selected": {
                 backgroundColor: "#000",
-                  color: "#fff",
+                  color: "#fffd",
                 
               },
             }}
